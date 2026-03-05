@@ -9,12 +9,14 @@
    ```bash
    npm create vite@latest
    ```
+   Name the Project `frontend`
 4. Create and enter the server directory:
    ```bash
    mkdir server
    cd server
    ```
 5. Initialize the server project:
+   Make do not use `index.js` set it to `server.js`
    ```bash
    npm init
    touch serve.js
@@ -23,7 +25,7 @@
 
 ## Building the Server
 
-In `serve.js`:
+In `server.js`:
 
 1. Import **express** and **path**
 
